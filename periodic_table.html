@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Periodic Table</title>
+  <style>
+    /* CSS styles for the page */
+
+    header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+.container {
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+	
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+
+    .element {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      margin: 5px;
+      text-align: center;
+      line-height: 60px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 50%;
+      background-color: #f1f1f1;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .element:hover {
+      background-color: #c1c1c1;
+      color: white;
+    }
+    
+    .element.active {
+      animation: pulse 1s infinite;
+    }
+    
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+ 
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Periodic Table</h1>
+  </header>
+  <div class="element">H</div>
+  <div class="element">He</div>
+  <div class="element">Li</div>
+  <div class="element">Be</div>
+  <div class="element">B</div>
+  <div class="element">C</div>
+  <div class="element">N</div>
+  <div class="element">O</div>
+  <div class="element">F</div>
+  <div class="element">Ne</div>
+  <div class="element">Na</div>
+  <div class="element">Mg</div>
+  <div class="element">Al</div>
+  <div class="element">Si</div>
+  <div class="element">P</div>
+  <div class="element">S</div>
+  <div class="element">Cl</div>
+  <div class="element">K</div>
+  <div class="element">Ar</div>
+  <div class="element">Ca</div>
+  <div class="element">Sc</div>
+  <div class="element">Ti</div>
+  <div class="element">V</div>
+  <div class="element">Cr</div>
+  <div class="element">Mn</div>
+  <div class="element">Fe</div>
+  <div class="element">Ni</div>
+  <div class="element">Co</div>
+  <div class="element">Cu</div>
+  <div class="element">Zn</div>
+  <div class="element">Ga</div>
+  <div class="element">Ge</div>
+  <div class="element">As</div>
+  <div class="element">Se</div>
+  <div class="element">Br</div>
+  <div class="element">Kr</div>
+  <div class="element">Rb</div>
+  <div class="element">Sr</div>
+  <div class="element">Y</div>
+  <div class="element">Zr</div>
+  <div class="element">Nb</div>
+  <div class="element">Mo</div>
+  <div class="element">Tc</div>
+  <div class="element">Ru</div>
+  <div class="element">Rh</div>
+  <div class="element">Pd</div>
+  <div class="element">Ag</div>
+  <div class="element">Cd</div>
+  <div class="element">In</div>
+  <div class="element">Sn</div>
+  <div class="element">Sb</div>
+  <div class="element">I</div>
+  <div class="element">Te</div>
+  <div class="element">Xe</div>
+  <div class="element">Cs</div>
+  <div class="element">Ba</div>
+  <div class="element">La</div>
+  <div class="element">Ce</div>
+  <div class="element">Pr</div>
+  <div class="element">Nd</div>
+  <div class="element">Pm</div>
+  <div class="element">Sm</div>
+  <div class="element">Eu</div>
+  <div class="element">Gd</div>
+  <div class="element">Tb</div>
+  <div class="element">Dy</div>
+  <div class="element">Ho</div>
+  <div class="element">Er</div>
+  <div class="element">Tm</div>
+  <div class="element">Yb</div>
+  <div class="element">Lu</div>
+  <div class="element">Hf</div>
+  <div class="element">Ta</div>
+  <div class="element">W</div>
+  <div class="element">Re</div>
+  <div class="element">Os</div>
+  <div class="element">Ir</div>
+  <div class="element">Pt</div>
+  <div class="element">Au</div>
+  <div class="element">Hg</div>
+  <div class="element">Tl</div>
+  <div class="element">Pb</div>
+  <div class="element">Bi</div>
+  <div class="element">Th</div>
+  <div class="element">Pa</div>
+  <div class="element">U</div>
+  <div class="element">Np</div>
+  <div class="element">Pu</div>
+  <div class="element">Am</div>
+  <div class="element">Cm</div>
+  <div class="element">Bk</div>
+  <div class="element">Cf</div>
+  <div class="element">Es</div>
+  <div class="element">Fm</div>
+  <div class="element">Md</div>
+  <div class="element">No</div>
+  <div class="element">Lr</div>
+  <div class="element">Rf</div>
+  <div class="element">Db</div>
+  <div class="element">Sg</div>
+  <div class="element">Bh</div>
+  <div class="element">Hs</div>
+  <div class="element">Mt</div>
+  <div class="element">Ds</div>
+  <div class="element">Rg</div>
+  <div class="element">Cn</div>
+  <div class="element">Nh</div>
+  <div class="element">Fl</div>
+  <div class="element">Mc</div>
+  <div class="element">Lv</div>
+  <div class="element">Ts</div>
+  <div class="element">Og</div>
+
+  <script>
+    var elements = document.getElementsByClassName('element');
+
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].addEventListener('click', function() {
+        this.classList.toggle('active');
+      });
+    }
+  </script>
+</body>
+</html>
