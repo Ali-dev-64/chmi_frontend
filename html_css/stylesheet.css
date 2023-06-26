@@ -54,3 +54,16 @@
   
   
   */
+  
+  .start_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .home_container {
+    text-align: center;
+    margin-top: 150px;
+  }
